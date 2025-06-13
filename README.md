@@ -26,7 +26,7 @@ In qBittorrent's settings, go to downloads and enter in `curl -X POST --data-url
 
 ## Usage
 
-To offset the numbering for torrents, torrent must have a tag of a specific form: `<regex>@<offset>` where `<regex>` is the regex pattern that will match the filename and `<offset>` is the offset set. `<regex>` must contain one group which matches the number in the filename that the offset will be applied to.
+To offset the numbering for torrents, the torrent must have a tag of a specific form: `<regex>@<offset>` where `<regex>` is the regex pattern that will match the filename and `<offset>` is the offset set. `<regex>` must contain one group which matches the number in the filename that the offset will be applied to.
 
 ### Example
 
@@ -34,4 +34,4 @@ Let's say the filename looks like `[SubsPlease] Kusuriya no Hitorigoto - 45 (108
 
 ## Known limitations
 
-qbit-renamer has only been designed and tested for torrent that contains a single file. It will also currently not work for torrents with multiple files.
+qbit-renamer has only been designed and tested for torrent that contains a single file. It will also currently not work for torrents with multiple tags.
