@@ -22,7 +22,7 @@ If `QBIT_USERNAME` isn't set, qbit-renamer will connect to qBittorrent without a
 
 ### qBittorrent
 
-In qBittorrent's settings, go to downloads and enter in `curl -X POST --data-urlencode "hash=%I" --data-urlencode "tag=%G" <url>` under "Run on torrent finished", where `<url>` is the location to the server running qbit-renamer, for example `http://localhost:3000`.
+In qBittorrent's settings, go to downloads and enter in `curl -X POST --data-urlencode "hash=%I" --data-urlencode "tag=%G" <url>/rename` under "Run on torrent finished", where `<url>` is the location to the server running qbit-renamer, for example `http://localhost:3000`.
 
 ## Usage
 
